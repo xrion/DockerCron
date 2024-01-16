@@ -2,7 +2,7 @@
 FROM python:3.8-slim
 
 # Set the working directory in the container
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # Copy the script file into the container at /usr/src/app
 COPY script.sh .
